@@ -16,12 +16,19 @@
     margin-left:20px;
 }
 /*coding for small navigation bar ended here*/
+.computer-navigation-wrapper,.computer-navigation{
+    background-color:darkblue !important;
+    height:100px !important;
+}
+.computer-li{
+    margin-right:30px;
+}
 /*coding for navigation bar ended here here*/
 
 /*coding for landig page section start here*/
 
 /*coding for landig page section for small devices start here*/
-.sm-device-background-image{
+.background-image{
     background:url("../images/2.jpeg");
     height:300px;
     background-size:100% 100%;
@@ -31,7 +38,18 @@
     height:300px;
 }
 
-
+.skills-section{
+  background-color:#d6b3b347 !important;
+}
+.about-section,.contact-section{
+  background-color:#00008b !important;
+}
+.services-section,body{
+  background-color:#CFD8DC;;
+}
+.about-us-card{
+  background-color:#00008b;
+}
 .wrapper {
     margin: auto;
     text-align: center;
@@ -107,6 +125,7 @@
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
+    height:250px;
   }
 
 
@@ -115,8 +134,78 @@
     .skills-cards{
       margin-top:16px !important;
     } 
+    .about-us-description{
+      font-size:14px;
+    }
+   }
+   @media screen and (max-width:990px){
+    .about-us-description,.contact-us-description{
+      font-size:14px;
+    }
+    .social-media-column{
+      margin-top:-36px;
+    }
+    .description-section{
+      margin-top:-20px;
+    }
+    .contact-us-caption{
+      font-size:26px;
+    }
+   }
+   @media screen and (min-width:992px) and (max-width:2700px){
+    .social-media-column{
+      margin-top:-28px;
+    }
    }
 /*animating card coding ended */ 
 /*coding for landig page section for small device enede here*/
 
 /*coding for landig page section ended here*/
+
+
+
+/*media queries  coding start here*/
+
+/*background image section coding*/
+@media screen and (min-width:768px) and (max-width:30000px){
+  .background-image{
+    height:500px;
+    background:url("../images/3.jpeg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-position-y:0px;
+  }
+  .mask{
+    height:500px;
+  }
+  .leading-caption{
+    font-size:30px;
+  }
+  .leading-button{
+    font-size:18px !important;
+  }
+  .services-card{
+    height:400px;
+  }
+  
+}
+@media screen and (max-width:340px){
+  .flip-1{
+    height:250px;
+  }
+}
+@media screen and (min-width:100px) and (max-width:270px){
+  .flip-1{
+    height:250px;
+  }
+  .skills-caption{
+    font-size:10px;
+  }
+  .img-icon{
+    height:50px !important;
+  }
+  .skill-title{
+    font-size:12px;
+  }
+}
+/*background image section coding ended*/

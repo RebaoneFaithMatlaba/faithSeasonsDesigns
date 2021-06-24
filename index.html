@@ -14,6 +14,7 @@
 <body> 
     
     <!--coding for the navigation start here-->
+    <!--coding for small navigation start here-->
     <div class="bg-danger container-fluid d-md-none d-lg-none d-xl-none sm-screen-navigation-bar-wrapper" style="background-color: darkblue !important;">
         <div class="container-fluid sm-screen-navigation-bar d-flex align-items-center text-white">
             <div class="container d-flex justify-content-start align-items-start">
@@ -28,17 +29,63 @@
             </div>
         </div>
     </div>
+    <!--coding for small navigation ended here-->
+    <!--coding for large navigation start here-->
+    <div class="container-fluid d-none d-sm-none d-md-block computer-navigation-wrapper">
+        <div class="container card-body d-flex align-items-center computer-navigation">
+            <div>
+                <li class="d-flex align-self-start font-weight-bold text-white h6">
+                    <a href="#" class="text-white">
+                        FSD 
+                    </a>
+                </li>
+            </div>
+            <div class="container d-flex justify-content-end">
+                <li class="computer-li d-inline-block h6 font-weight-bold">
+                    <a href="#" class="text-white">
+                        Home
+                    </a>
+                </li>
+                <li class="computer-li d-inline-block h6 font-weight-bold">
+                    <a href="#" class="text-white">
+                        Our Services
+                    </a>
+                </li>
+                <li class="computer-li d-inline-block h6 font-weight-bold">
+                    <a href="#" class="text-white">
+                        Our Skills
+                    </a>
+                </li>
+                <li class="computer-li d-inline-block h6 font-weight-bold">
+                    <a href="#" class="text-white">
+                        About Us
+                    </a>
+                </li>
+                <li class="computer-li d-inline-block h6 font-weight-bold">
+                    <a href="#" class="text-white">
+                        Contact Us
+                    </a>
+                </li>
+                <li class=" d-inline-block h6 font-weight-bold">
+                    <a href="#" class="text-white">
+                        Our Work
+                    </a>
+                </li>
+            </div>
+        </div>
+    </div>
+    <!--coding for large navigation ended here-->
     <!--coding for the navigation ended here-->
 
     <!--coding for landing screen start here-->
     <!--coding for small device landing screen start here-->
-    <div class="jumbotron jumbotron-fluid d-sm-block d-md-none d-lg-none d-xl-none bg-image sm-device-background-image">
+    <div class="jumbotron jumbotron-fluid bg-image background-image">
         <div class="mask introduction-section d-flex align-items-center justify-content-center">
             <div class="container text-center">
-                <p class="font-weight-bold text-white">
-                    LET US HELP YOU BUILD YOUR BRAND AT AN AFFORDABLE PRICE
+                <p class="font-weight-bold text-white leading-caption">
+                    LET US HELP YOU BUILD YOUR DREAM BRAND AT AN AFFORDABLE PRICE
                 </p>
-                <p class="font-weight-bold h4 btn btn-md bg-danger text-white" style="font-family:sans-serif !important;">
+                <p class="font-weight-bold h4 btn btn-md bg-danger text-white leading-button" style="font-family:sans-serif !important;">
                     View Quotation
                 </p>
             </div>
@@ -47,10 +94,37 @@
     <!--coding for small device landing screen ended here-->
     <!--coding for landing screen start here-->
 
+    <!--coding for about-us section start here-->
+    <div class="container-fluid card-body about-section" style="background-color:rgb(255, 106, 118)">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-md-6 d-none d-sm-none d-md-block">
+                    <img src="images/11.jpg" alt="" class="img-fluid mx-auto">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6" >
+                    <div class="card about-us-card">
+                        <p class="font-weight-bold h1 text-white text-center about-us-caption">
+                            About Us
+                        </p>
+                        <div class="card-body">
+                            <p class="text-white about-us-description text-center">
+                                We are a team of skilled web developers and graphic designers
+                                who are here to code your dream brand into a reality.
+                                Our main goal is to help you build your dream brand which will 
+                                represent you well as a professional or brand to your target audience,clients or 
+                                future business partners
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--coding for about-us section ended here-->
 
     <!--coding for landing screen two start here-->
     <!--coding for small device landing screen two start here here-->
-    <div class="d-md-none">
+    <div class="d-md-none services-section">
         <div class="container-fluid d-flex justify-content-center card-body">
             <p class="font-weight-bold h1" style="color:black !important">
                 Our Services
@@ -115,78 +189,204 @@
         </div>
     </div>
     <!--coding for small device landing screen ended here-->
+    <div class="container-fluid d-none d-sm-none d-md-block d-lg-block card-body services-section">
+        <p class="font-weight-bold h1 text-center" style="color:black !important">
+            Our Services
+        </p><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card services-card">
+                        <div class="card-body">
+                            <p class="card-title text-white text-center font-weight-bold">
+                                Web Development 
+                             </p>
+                             <p class="text-center">
+                                <i class="fas fa-2x fa-globe text-white"></i>
+                             </p>
+                            <p class="card-text text-center sm-card-text text-white d-block">
+                                We develop high quality responsive 
+                                website using latest technologies 
+                                such as HTML5, CSS3, Javascript(jquery),Node.js,PHP
+                            </p>
+                            <div class="container d-flex justify-content-center">
+                                <p class="font-weight-bold d-flex text-white btn btn-md bg-danger">
+                                    View Our Work
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card services-card">
+                        <div class="card-body">
+                            <p class="card-title text-white text-center  font-weight-bold">
+                                Graphic Design
+                             </p>
+                             <p class="text-center">
+                                <i class="fas fa-2x fa-camera text-white"></i>
+                             </p>
+                            <p class="card-text text-center  sm-card-text text-white">
+                                We provide brands with brand identity services like Logo Design,Posters,Broches using tools like : 
+                                Photoshop,Adobe Illustrator,Adobe XD
+                            </p>
+                            <div class="container d-flex justify-content-center">
+                                <p class="font-weight-bold text-white btn btn-md bg-danger">
+                                    View Our Work
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card services-card">
+                        <div class="card-body">
+                            <p class="card-title text-white text-center font-weight-bold">
+                                Videography Services
+                             </p>
+                             <p class=" text-center">
+                                <i class="fas fa-2x fa-video text-white"></i>
+                             </p>
+                            <p class="card-text text-center sm-card-text text-white">
+                                We provide brands with services like YouTube introduction videos
+                                animated logos,advertisement videos using tools like : 
+                                Adobe After-effects
+                            </p>
+                            <div class="container d-flex justify-content-center">
+                                <p class="font-weight-bold h6 text-white btn btn-md bg-danger">
+                                    View Our Work
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--coding for landing screen two ended here-->
-
-    <div class="container">
-        <p class="font-weight-bold text-dark h1 text-center">
-            Our Team's Skill
-        </p>
-        <div class="row">
-            <div class="col-12 col-sm-12 col-md-4 skills-cards">
-                <div class="flip-card card d-flex justify-content-center">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <p class="font-weight-bold h5 text-white" style="padding-left:20px">
-                            Group Work
-                        </p><br>
-                        <img src="icons/leader.png" class="img-fluid mx-auto" alt="Avatar" style="height:100px;">
-                      </div>
-                      <div class="flip-card-back card" style="background-color: darkblue;"><br>
-                        <div class="card-body">
-                            <p class=" white text-white h6 skills-caption">
-                                We have team of individuals who knows how to work on the team 
-                                and be team players to get the work done.
-                            </p>
+    <br>
+    <div class="container-fluid card-body skills-section" style="background-color:rgb(240, 209, 209)">
+        <div class="container card-body">
+            <p class="font-weight-bold text-dark h1 text-center">
+                Our Skills
+            </p><br>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 skills-cards">
+                    <div class="flip-card card d-flex justify-content-center">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front card-body">
+                            <p class="font-weight-bold h5 text-white skill-title" style="padding-left:20px">
+                                Group Work
+                            </p><br>
+                            <img src="icons/leader.png" class="img-fluid mx-auto img-icon" alt="Avatar" style="height:100px;">
+                          </div>
+                          <div class="flip-card-back card" style="background-color: darkblue;"><br>
+                            <div class="card-body">
+                                <p class=" white text-white h6 skills-caption">
+                                    We have a team of individuals who knows how to work on a team 
+                                    and be team players to get the work done.
+                                </p>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4 skills-cards">
-                <div class="flip-card card d-flex justify-content-center">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <p class="font-weight-bold h5 text-white" style="padding-left:20px">
-                            Time Management
-                        </p><br>
-                        <img src="icons/schedule.png" class="img-fluid mx-auto" alt="Avatar" style="height:100px;">
-                      </div>
-                      <div class="flip-card-back card" style="background-color: darkblue;"><br>
-                        <div class="card-body">
-                            <p class="text-white h6 skills-caption">
-                                Our team know the importance of time and meeting deadlines 
-                                FSD team divide task amoung themselves in small pieces to make sure they meet the 
-                                deadline of projects 
-                            </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 skills-cards">
+                    <div class="flip-card  card d-flex justify-content-center">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front card-body">
+                            <p class="font-weight-bold h5 text-white skill-title" style="padding-left:20px">
+                                Time Management
+                            </p><br>
+                            <img src="icons/schedule.png" class="img-fluid mx-auto img-icon img-icon" alt="Avatar" style="height:100px;">
+                          </div>
+                          <div class="flip-card-back card" style="background-color: darkblue;"><br>
+                            <div class="card-body">
+                                <p class="text-white h6 skills-caption">
+                                    Our team know the importance of time and meeting deadlines.
+                                    FSD team divide task amoung themselves in small pieces to make sure they meet the 
+                                    deadline of projects 
+                                </p>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4 skills-cards">
-                <div class="flip-card card d-flex justify-content-center">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <p class="font-weight-bold h5 text-white" style="padding-left:20px">
-                            Communication
-                        </p><br>
-                        <img src="icons/conversation.png" class="img-fluid mx-auto" alt="Avatar" style="height:100px;">
-                      </div>
-                      <div class="flip-card-back card" style="background-color: darkblue;"><br>
-                        <div class="card-body">
-                            <p class=" text-white h6 skills-caption">
-                                Our team have 
-                                Quality communication skills in the workplace whic help in eliminating unnecessary problems 
-                                and promote better performance,increase overall productivity, and create a strong team
-                                that is able to deliver good quality services on time
-                            </p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 skills-cards">
+                    <div class="flip-card flip-1 card d-flex justify-content-center">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front card-body">
+                            <p class="font-weight-bold h5 text-white skill-title" style="padding-left:20px">
+                                Communication
+                            </p><br>
+                            <img src="icons/conversation.png" class="img-fluid mx-auto img-icon" alt="Avatar" style="height:100px;">
+                          </div>
+                          <div class="flip-card-back card" style="background-color: darkblue;"><br>
+                            <div class="card-body">
+                                <p class=" text-white h6 skills-caption">
+                                    Our team have 
+                                    Quality communication skills which help in eliminating unnecessary problems 
+                                    and promote better performance,increase overall productivity, and create a strong team
+                                    that is able to deliver good quality services on time
+                                </p>
+                            </div>
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </div>
+                </div>
             </div>
         </div>
     </div><br>
+
+    <!--coding for contact-us section start here-->
+    <div class="container-fluid card-body contact-section" style="background-color:rgb(255, 106, 118)">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col-md-6 d-none d-sm-none d-md-block">
+                    <img src="images/17.jpg" alt="" class="img-fluid mx-auto">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6" >
+                    <div class="card about-us-card">
+                        <p class="font-weight-bold h1 text-white text-center contact-us-caption">
+                            Contact Us
+                        </p>
+                        <div class="card-body description-section">
+                            <p class="text-white contact-us-description text-center">
+                                Get in touch with us!
+                            </p>
+                            <p class="text-center text-white contact-us-description">
+                                Contact : 074 044 0045 <br> E-mail : faithseasonsdesign2020@gmail.com
+                            </p>
+                            
+                            <div class="container d-flex justify-content-center social-media-column">
+                                <li class="d-inline-block sm-device-li">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-square text-white" style="font-size:17pt"></i>
+                                    </a>
+                                </li>
+                                <li class="d-inline-block sm-device-li sm-social-media-li">
+                                    <a href="#">
+                                        <i class="fab fa-linkedin text-white" style="font-size:17pt"></i>
+                                    </a>
+                                </li>
+                                <li class="d-inline-block sm-device-li sm-social-media-li">
+                                    <a href="#">
+                                        <i class="fab fa-instagram text-white" style="font-size:17pt"></i>
+                                    </a>
+                                </li>
+                                <li class="d-inline-block sm-device-li sm-social-media-li">
+                                    <a href="#">
+                                        <i class="fab fa-whatsapp text-white" style="font-size:17pt"></i>
+                                    </a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--coding for contact-us section ended here-->
 
 
     <!--coding for the navigation list drop-down start here-->
@@ -196,6 +396,16 @@
                 <li class="sm-device-li d-block h6 font-weight-bold">
                     <a href="#" class="text-white">
                         Home
+                    </a>
+                </li>
+                <li class="sm-device-li d-block h6 font-weight-bold">
+                    <a href="#" class="text-white">
+                        Our Services
+                    </a>
+                </li>
+                <li class="sm-device-li d-block h6 font-weight-bold">
+                    <a href="#" class="text-white">
+                        Our Skills
                     </a>
                 </li>
                 <li class="sm-device-li d-block h6 font-weight-bold">
